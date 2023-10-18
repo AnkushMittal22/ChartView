@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hlo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  width: 80%;
+  background-color: #61dafb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.roundee {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.chart {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 40vh;
+}
+.round {
+  background-color: #ffffff;
+  width: 20%;
+  height: 17vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pia {
+  width: 23.5%;
+  background-color: #ffffff;
+  height: 40vh;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.tabledt {
+  background-color: #ffffff;
+  height: 30vh;
+  width: 93%;
+  border-radius: 10px;
+  margin-left: 4%;
+  margin-top: 15px;
+}
+.all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+.tablerow {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 35px;
+}
+.product {
+  width: 60%;
+  text-align: start;
+}
+.small {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+}
+table {
+  width: 100%;
+}
+.tableinside {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
